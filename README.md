@@ -1,22 +1,13 @@
+# Portfolio (refreshed UI)
+- Single-page, sectioned layout
+- Sticky nav, smooth scroll
+- Projects grid
+- Resume download
 
-# Portfolio — GitHub Pages (User site)
+## Deploy
+1) Create a **public** repo named **ashwinbalajiks.github.io**.
+2) Upload all files to repo root.
+3) Settings → Pages → Deploy from a branch → select your default branch (`master` or `main`) and **/(root)**.
+4) Commit; open https://ashwinbalajiks.github.io
 
-This bundle is ready for **GitHub Pages**.
-
-## Deploy steps
-1) Create a **public** repo named **ashwinbalajiks.github.io** (exact).
-2) Upload all files in this ZIP **to the repo root** (index.html must be at root).
-3) Go to **Settings → Pages**:
-   - **Source:** Deploy from a branch
-   - **Branch:** **master** (root)
-   - If your default branch is **main**, select **main (root)** instead.
-4) Commit/push. Wait ~30–60 seconds, then open: https://ashwinbalajiks.github.io/
-
-## Included
-- `index.html`, `assets/`, `resume.pdf`, `404.html`, `.nojekyll`
-- `README.md` (this file)
-
-## Troubleshooting
-- **404 / not showing**: Verify repo is public, `index.html` is at root, and Pages points to the branch you pushed.
-- **Still not building**: Make a tiny change and commit again to trigger a rebuild.
-- **Theme errors**: `.nojekyll` disables Jekyll so static assets load as-is.
+Edit `index.html` to change text, add projects, or hide phone numbers, etc.
