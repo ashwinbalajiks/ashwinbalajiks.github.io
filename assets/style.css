@@ -1,0 +1,43 @@
+
+:root{
+  --bg:#0b1020;
+  --card:#121a2b;
+  --muted:#8aa0c6;
+  --accent:#7c92ff;
+  --text:#e8eefc;
+  --pill:#18233a;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans',sans-serif;background:var(--bg);color:var(--text)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1000px;margin:0 auto;padding:24px}
+.nav{display:flex;gap:18px;flex-wrap:wrap;justify-content:flex-end}
+.nav a{padding:8px 12px;border-radius:999px;background:var(--pill);color:var(--text);text-decoration:none}
+.nav a:hover{background:#1f2a44}
+.hero{display:grid;grid-template-columns:1fr;gap:16px;padding:48px 0;border-bottom:1px solid #1f2740}
+.hero h1{font-size:40px;line-height:1.1;margin:0}
+.hero p{margin:0;color:var(--muted)}
+.grid{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:900px){
+  .grid{grid-template-columns:1fr 1fr}
+}
+.card{background:var(--card);border:1px solid #1b2440;border-radius:16px;padding:18px}
+.card h3{margin:0 0 8px 0}
+.section{padding:36px 0}
+.kv{display:flex;flex-wrap:wrap;gap:10px}
+.kv span{background:var(--pill);border:1px solid #223055;padding:6px 10px;border-radius:999px;color:#c9d7ff}
+.footer{padding:40px 0;color:#9fb0d6;border-top:1px solid #1f2740;margin-top:30px}
+h2{margin:0 0 16px 0;font-size:24px}
+.small{font-size:14px;color:#9fb0d6}
+ul{margin:8px 0 0 18px}
+.header{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.header .title{flex:1}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#0e1730;border:1px solid #223055;border-radius:999px;padding:6px 10px;color:#c9d7ff}
+.badge svg{width:16px;height:16px}
+.downloads{display:flex;gap:10px;flex-wrap:wrap}
+.section .subtitle{margin-top:-6px;color:#9fb0d6}
+.timeline{display:flex;flex-direction:column;gap:12px}
+.timeline .item{background:var(--card);border:1px solid #1b2440;border-radius:12px;padding:12px}
+.timeline .item .when{color:#9fb0d6;font-size:14px}
+.section anchor{scroll-margin-top:80px}
